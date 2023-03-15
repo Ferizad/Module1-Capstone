@@ -69,7 +69,7 @@ A website for a concert.
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone https://github.com/Ferizad/CapstOne
+  git clone https://github.com/Ferizad/Module1-Capstone
 
 ### Install
 
