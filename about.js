@@ -69,7 +69,7 @@ function mobileMenu() {
 
 appearMobileMenu.addEventListener('click', mobileMenu);
 
-//  Script for the 'mobile-menu-close' icon 
+//  Script for the 'mobile-menu-close' icon
 
 function disappearMobileMenu() {
   const removeMobileMenu = document.getElementById('rmv');
