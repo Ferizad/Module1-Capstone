@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+  <script src="about.js" defer></script>
+</head>
+<body>
+  <header>
+    <!--DOM mobile menu-->
+    <div class="mobile-menu">
+
+    </div>
+
+    <nav class="nav-desktop">
+      <ul class="nav-black">
+        <li><i class="fab fa-facebook-f"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><span>English</span></li>
+        <li><span>My Page</span></li>
+        <li><span>Logout</span></li>
+      </ul>
+      <div class="nav-grey">
+        <a href="./index.html">
+          <img src="media/logo1.png" alt="logo">
+        </a>
+        <ul> 
+          <li><a class="link" href="about.html">About</a></li>
+          <li><a class="link" href="#">Program</a></li>
+          <li><a class="link" href="#">Join</a></li>
+          <li><a class="link" href="#">Sponsor</a></li>
+          <li><a class="link" href="#">News</a></li>
+          <li><div class="div-orange">DK Campaign</div></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <section class="welcome">
+      <div id="nav-menu" class="mobile">
+        <a onclick="mobileMenu()"> 
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+      <div class="w-div">
+        <p class="w-paragraph">"“Stranger” concert, Yerevan (April 29, 2023)"</p>
+        <h1 class="w-h1">
+          Dimash
+          KUDAIBERGENOV
+        </h1>
+        <p class="w-description">
+            Creative Center “DimashAli” announces a new solo concert of Dimash. The large-scale show will take place on April 29, 2023 in Yerevan, the capital of Armenia.
+        </p>
+        <p class="w-dates">2023.04.29(SAT)</p>
+        <p class="w-places">@ The Karen Demirchyan Complex</p>
+      </div>
+    </section>
+
+    <!-- Section - Program-->
+
+    <section class="program" id="program">
+      <div class="p-container">
+        <h1>Main Program</h1>
+        <div class="divider"></div>
+        <div class="p-cards">
+          <div class="p-card">
+            <div class="p-icon">
+            <i class="fab fa-intercom"></i>
+            </div>
+            <h2>Concerts</h2>
+            <p>
+                «Stranger» continues its journey: Dimash’s first solo concert in Yerevan
+            </p>
+          </div>
+          <div class="p-card">
+            <div class="p-icon">
+            <i class="fas fa-quidditch"></i>
+            </div>
+            <h2>D. world</h2>
+            <p>
+                Dears from Indonesia organize fundraiser to help families affected by earthquake
+            </p>
+          </div>
+          <div class="p-card">
+            <div class="p-icon">
+            <i class="fas fa-igloo"></i>
+            </div>
+            <h2>History</h2>
+            <p>
+                Life through the Centuries. Historical characters from Dimash’s music video
+            </p>
+          </div>
+          <div class="p-card">
+            <div class="p-icon">
+            <i class="fas fa-magic"></i>
+            </div>
+            <h2>Culture</h2>
+            <p>
+                Children’s vocal competition “Baqytty Bala-2022” will be held in Aktobe
+            </p>
+          </div>
+          <div class="p-card">
+            <div class="p-icon">
+            <i class="fas fa-dice-d20"></i>
+            </div>
+            <h2>Tourism</h2>
+            <p>
+                Where music belongs to everyone – the House of Music, Hungary
+            </p>
+          </div>
+        </div>
+        <div class="join mobile">
+          <span class="j-span">Join the concert</span>
+        </div>
+        <a class="anchor-see" href="#">SEE THE WHOLE PROGRAM</a>
+      </div>
+    </section>
+
+    <!-- DOM Speakers Section -->
+
+    <section class="speakers">
+
+    </section>
+    <section class="a-partners">
+      <h2>
+        Partners
+      </h2>
+      <div class="divider"></div>
+      <div>
+        <ul class="a-partners-list">
+          <li class="a-li" id="godzilla">
+            <p>godzilla</p>
+          </li>
+          <li class="a-li" id="doodle">
+            <p>Goodie</p>
+          </li>
+          <li class="a-li" id="waver">
+            <p>WAVER</p>
+          </li>
+          <li class="a-li" id="wowkakao">
+            <p>wowkakao</p>
+          </li>
+          <li class="a-li" id="airbaloon">
+            <p>airbaloon</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="footer">
+      <div class="footer-image-div">
+        <img class="footer-image" src="media/logo1.png" alt="logo">    
+      </div>
+      <div class="footer-text">
+         <p>   © 2020 - DIMASH ALI STUDIO. All rights reserved. 
+             
+        </p>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
